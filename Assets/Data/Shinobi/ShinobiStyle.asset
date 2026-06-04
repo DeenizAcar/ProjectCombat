@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253bd9801e1c0664bb767f65f7113c3e, type: 3}
+  m_Name: ShinobiStyle
+  m_EditorClassIdentifier: ProjectCombat.Combat::ProjectCombat.Combat.Movement.StyleProfile
+  StyleName: Shinobi
+  PlayerTint: {r: 0.55, g: 0.85, b: 1, a: 1}
+  MovementProfile: {fileID: 11400000, guid: 34064239f5802a64c8c9766d9b9bf374, type: 2}
+  Slot1Skill: {fileID: 11400000, guid: faee8673065d3db468d8a485bf245228, type: 2}
+  Slot2Skill: {fileID: 11400000, guid: 2e00ceceed9bb3244a3ce8720d4cfe4b, type: 2}
+  Slot3Skill: {fileID: 0}
+  LightCombo:
+  - {fileID: 11400000, guid: 5860af027dc2d534eace288c81ecc9c9, type: 2}
+  - {fileID: 11400000, guid: 53089436795e01b408651e66dcf4ae1e, type: 2}
+  - {fileID: 11400000, guid: f3a2326fa6287dc4c80f7ac16a573c07, type: 2}

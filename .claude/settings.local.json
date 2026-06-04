@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\"---\")",
+      "PowerShell(\"---PACKAGES---\")",
+      "PowerShell(\"---PROJECT VERSION---\")",
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\GitHub\\\\ProjectCombat\\\\Assets\\\\Editor\" -Force)",
+      "PowerShell(\"Created\")"
+    ]
+  }
+}

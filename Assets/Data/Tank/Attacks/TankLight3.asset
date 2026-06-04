@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55745fbdfbd05d4dbef643b04908173, type: 3}
+  m_Name: TankLight3
+  m_EditorClassIdentifier: ProjectCombat.Combat::ProjectCombat.Combat.Attacks.MeleeAttackData
+  StartupFrames: 14
+  ActiveFrames: 5
+  RecoveryFrames: 22
+  Damage: 45
+  HitStopFrames: 10
+  KnockbackVelocity: {x: 10, y: 4}
+  LocksMovement: 1
+  SuppressGravity: 0
+  CancelWindowFrames: 5
+  PostAttackGraceFrames: 16
+  HitboxOffset: {x: 1.3, y: 0.1}
+  HitboxSize: {x: 2.3, y: 1.5}
+  HurtboxLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  SlashSprite: {fileID: 0}
+  SlashOffset: {x: 1.3, y: 0.1}
+  SlashScale: {x: 2.3, y: 1}
+  SlashRotation: 30
+  SlashLifetimeFrames: 12
+  SlashFadeOut: 1
+  SlashSortingOrder: 5

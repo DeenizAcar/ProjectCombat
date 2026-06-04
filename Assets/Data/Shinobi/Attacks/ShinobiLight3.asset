@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55745fbdfbd05d4dbef643b04908173, type: 3}
+  m_Name: ShinobiLight3
+  m_EditorClassIdentifier: ProjectCombat.Combat::ProjectCombat.Combat.Attacks.MeleeAttackData
+  StartupFrames: 6
+  ActiveFrames: 5
+  RecoveryFrames: 12
+  Damage: 20
+  HitStopFrames: 5
+  KnockbackVelocity: {x: 8, y: 3}
+  LocksMovement: 0
+  SuppressGravity: 1
+  CancelWindowFrames: 4
+  PostAttackGraceFrames: 12
+  HitboxOffset: {x: 1.2, y: 0.1}
+  HitboxSize: {x: 1.9, y: 1.2}
+  HurtboxLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  SlashSprite: {fileID: 0}
+  SlashOffset: {x: 1.2, y: 0.1}
+  SlashScale: {x: 1.9, y: 0.75}
+  SlashRotation: -30
+  SlashLifetimeFrames: 8
+  SlashFadeOut: 1
+  SlashSortingOrder: 5

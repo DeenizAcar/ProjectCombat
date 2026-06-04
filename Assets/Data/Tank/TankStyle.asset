@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253bd9801e1c0664bb767f65f7113c3e, type: 3}
+  m_Name: TankStyle
+  m_EditorClassIdentifier: ProjectCombat.Combat::ProjectCombat.Combat.Movement.StyleProfile
+  StyleName: Tank
+  PlayerTint: {r: 0.95, g: 0.5, b: 0.4, a: 1}
+  MovementProfile: {fileID: 11400000, guid: bbd5a8e6ae75d264db8706d62e0dd687, type: 2}
+  Slot1Skill: {fileID: 11400000, guid: 20cb917f1069e294f982468a786de256, type: 2}
+  Slot2Skill: {fileID: 0}
+  Slot3Skill: {fileID: 0}
+  LightCombo:
+  - {fileID: 11400000, guid: e5dc547b9d75bee4883e6cb0d5e6812c, type: 2}
+  - {fileID: 11400000, guid: f699468eaeeaed640a857a367d73dc1b, type: 2}
+  - {fileID: 11400000, guid: 3c67a5262d471634295d34ec7bcd3390, type: 2}

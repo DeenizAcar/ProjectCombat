@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4715696f2065a924bbe670f8d7d580e4, type: 3}
+  m_Name: TankMovementProfile
+  m_EditorClassIdentifier: ProjectCombat.Combat::ProjectCombat.Combat.Movement.MovementProfile
+  WalkSpeed: 4.5
+  GroundAccelTime: 0.15
+  GroundDecelTime: 0.12
+  AirControlMultiplier: 0.4
+  Gravity: 60
+  FallGravityMultiplier: 2
+  MaxFallSpeed: 35
+  CollisionMask:
+    serializedVersion: 2
+    m_Bits: 256
+  SkinWidth: 0.02
+  GroundProbeDistance: 0.08
+  MaxGroundAngle: 50
+  EdgeCorrectionMaxNudge: 0
